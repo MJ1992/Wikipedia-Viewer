@@ -1,0 +1,62 @@
+body {
+    background-color: #1e3f75;
+}
+h1{
+  color: #edeeef;
+  text-align: center;
+  font-size: 50px;
+}
+.random {
+    text-align: center;
+    margin: 150px 0 10px 0;
+  
+}
+.random a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #FFF; 
+  font-weight: normal;
+    
+}
+#button {
+  background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  margin : 10px;
+}
+.search{
+    text-align: center;
+}
+
+input[type=text] {
+  width: 200px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #FFF;
+  padding: 10px 50px 10px 15px;
+  
+}
+.results{
+  background-color: #edeeef;
+}
+
+.Results{
+      border: darkorange;
+    border-style: dashed;
+    border-width: initial;
+    padding: 5px 0px;
+        margin: 10px 0px;
+    background-color: beige; 
+}
+
+.resultUrl {
+  text-decoration: none;
+  color: blue;
+}

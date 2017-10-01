@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wikipedia Viewer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div><h1>Wikipedia Viewer</h1></div>
+<div class="random"><a href = "https://en.wikipedia.org/wiki/Special:Random">Click here for a random article</a></div>
+<div class="search">
+ <form>
+  <input type="text" name="search" placeholder="Search Wikipedia" id ="userInput" keypress="myScript">
+</form> 
+ <button type="button" id = "button" onclick="resultPrint()">Click Me!</button>
+</div>
+<div class="result">
+  <ul id="results"></ul>
+</div>
+<script type="text/javascript" src = 'main.js'></script>
+</body>
+</html>
